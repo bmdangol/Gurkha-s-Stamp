@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599ED8EA1C3DC74F00ED5525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599ED8E91C3DC74F00ED5525 /* AppDelegate.swift */; };
+		599ED8EC1C3DC74F00ED5525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599ED8EB1C3DC74F00ED5525 /* ViewController.swift */; };
+		599ED8EF1C3DC74F00ED5525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599ED8ED1C3DC74F00ED5525 /* Main.storyboard */; };
+		599ED8F11C3DC74F00ED5525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599ED8F01C3DC74F00ED5525 /* Assets.xcassets */; };
+		599ED8F41C3DC74F00ED5525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599ED8F21C3DC74F00ED5525 /* LaunchScreen.storyboard */; };
+		599ED8FF1C3DC75000ED5525 /* Gurkha_s_StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599ED8FE1C3DC75000ED5525 /* Gurkha_s_StampTests.swift */; };
+		599ED90A1C3DC75000ED5525 /* Gurkha_s_StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599ED9091C3DC75000ED5525 /* Gurkha_s_StampUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		599ED8FB1C3DC75000ED5525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 599ED8DE1C3DC74F00ED5525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599ED8E51C3DC74F00ED5525;
+			remoteInfo = "Gurkha's Stamp";
+		};
+		599ED9061C3DC75000ED5525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 599ED8DE1C3DC74F00ED5525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599ED8E51C3DC74F00ED5525;
+			remoteInfo = "Gurkha's Stamp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		599ED8E61C3DC74F00ED5525 /* Gurkha's Stamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gurkha's Stamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599ED8E91C3DC74F00ED5525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		599ED8EB1C3DC74F00ED5525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		599ED8EE1C3DC74F00ED5525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		599ED8F01C3DC74F00ED5525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		599ED8F31C3DC74F00ED5525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		599ED8F51C3DC74F00ED5525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599ED8FA1C3DC75000ED5525 /* Gurkha's StampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gurkha's StampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599ED8FE1C3DC75000ED5525 /* Gurkha_s_StampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gurkha_s_StampTests.swift; sourceTree = "<group>"; };
+		599ED9001C3DC75000ED5525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599ED9051C3DC75000ED5525 /* Gurkha's StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gurkha's StampUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599ED9091C3DC75000ED5525 /* Gurkha_s_StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gurkha_s_StampUITests.swift; sourceTree = "<group>"; };
+		599ED90B1C3DC75000ED5525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		599ED8E31C3DC74F00ED5525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599ED8F71C3DC75000ED5525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599ED9021C3DC75000ED5525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599ED8DD1C3DC74F00ED5525 = {
+			isa = PBXGroup;
+			children = (
+				599ED8E81C3DC74F00ED5525 /* Gurkha's Stamp */,
+				599ED8FD1C3DC75000ED5525 /* Gurkha's StampTests */,
+				599ED9081C3DC75000ED5525 /* Gurkha's StampUITests */,
+				599ED8E71C3DC74F00ED5525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		599ED8E71C3DC74F00ED5525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				599ED8E61C3DC74F00ED5525 /* Gurkha's Stamp.app */,
+				599ED8FA1C3DC75000ED5525 /* Gurkha's StampTests.xctest */,
+				599ED9051C3DC75000ED5525 /* Gurkha's StampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		599ED8E81C3DC74F00ED5525 /* Gurkha's Stamp */ = {
+			isa = PBXGroup;
+			children = (
+				599ED8E91C3DC74F00ED5525 /* AppDelegate.swift */,
+				599ED8EB1C3DC74F00ED5525 /* ViewController.swift */,
+				599ED8ED1C3DC74F00ED5525 /* Main.storyboard */,
+				599ED8F01C3DC74F00ED5525 /* Assets.xcassets */,
+				599ED8F21C3DC74F00ED5525 /* LaunchScreen.storyboard */,
+				599ED8F51C3DC74F00ED5525 /* Info.plist */,
+			);
+			path = "Gurkha's Stamp";
+			sourceTree = "<group>";
+		};
+		599ED8FD1C3DC75000ED5525 /* Gurkha's StampTests */ = {
+			isa = PBXGroup;
+			children = (
+				599ED8FE1C3DC75000ED5525 /* Gurkha_s_StampTests.swift */,
+				599ED9001C3DC75000ED5525 /* Info.plist */,
+			);
+			path = "Gurkha's StampTests";
+			sourceTree = "<group>";
+		};
+		599ED9081C3DC75000ED5525 /* Gurkha's StampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				599ED9091C3DC75000ED5525 /* Gurkha_s_StampUITests.swift */,
+				599ED90B1C3DC75000ED5525 /* Info.plist */,
+			);
+			path = "Gurkha's StampUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		599ED8E51C3DC74F00ED5525 /* Gurkha's Stamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599ED90E1C3DC75000ED5525 /* Build configuration list for PBXNativeTarget "Gurkha's Stamp" */;
+			buildPhases = (
+				599ED8E21C3DC74F00ED5525 /* Sources */,
+				599ED8E31C3DC74F00ED5525 /* Frameworks */,
+				599ED8E41C3DC74F00ED5525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gurkha's Stamp";
+			productName = "Gurkha's Stamp";
+			productReference = 599ED8E61C3DC74F00ED5525 /* Gurkha's Stamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		599ED8F91C3DC75000ED5525 /* Gurkha's StampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599ED9111C3DC75000ED5525 /* Build configuration list for PBXNativeTarget "Gurkha's StampTests" */;
+			buildPhases = (
+				599ED8F61C3DC75000ED5525 /* Sources */,
+				599ED8F71C3DC75000ED5525 /* Frameworks */,
+				599ED8F81C3DC75000ED5525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599ED8FC1C3DC75000ED5525 /* PBXTargetDependency */,
+			);
+			name = "Gurkha's StampTests";
+			productName = "Gurkha's StampTests";
+			productReference = 599ED8FA1C3DC75000ED5525 /* Gurkha's StampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		599ED9041C3DC75000ED5525 /* Gurkha's StampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599ED9141C3DC75000ED5525 /* Build configuration list for PBXNativeTarget "Gurkha's StampUITests" */;
+			buildPhases = (
+				599ED9011C3DC75000ED5525 /* Sources */,
+				599ED9021C3DC75000ED5525 /* Frameworks */,
+				599ED9031C3DC75000ED5525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599ED9071C3DC75000ED5525 /* PBXTargetDependency */,
+			);
+			name = "Gurkha's StampUITests";
+			productName = "Gurkha's StampUITests";
+			productReference = 599ED9051C3DC75000ED5525 /* Gurkha's StampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		599ED8DE1C3DC74F00ED5525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AppCoders;
+				TargetAttributes = {
+					599ED8E51C3DC74F00ED5525 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					599ED8F91C3DC75000ED5525 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 599ED8E51C3DC74F00ED5525;
+					};
+					599ED9041C3DC75000ED5525 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 599ED8E51C3DC74F00ED5525;
+					};
+				};
+			};
+			buildConfigurationList = 599ED8E11C3DC74F00ED5525 /* Build configuration list for PBXProject "Gurkha's Stamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 599ED8DD1C3DC74F00ED5525;
+			productRefGroup = 599ED8E71C3DC74F00ED5525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599ED8E51C3DC74F00ED5525 /* Gurkha's Stamp */,
+				599ED8F91C3DC75000ED5525 /* Gurkha's StampTests */,
+				599ED9041C3DC75000ED5525 /* Gurkha's StampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		599ED8E41C3DC74F00ED5525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599ED8F41C3DC74F00ED5525 /* LaunchScreen.storyboard in Resources */,
+				599ED8F11C3DC74F00ED5525 /* Assets.xcassets in Resources */,
+				599ED8EF1C3DC74F00ED5525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599ED8F81C3DC75000ED5525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599ED9031C3DC75000ED5525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599ED8E21C3DC74F00ED5525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599ED8EC1C3DC74F00ED5525 /* ViewController.swift in Sources */,
+				599ED8EA1C3DC74F00ED5525 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599ED8F61C3DC75000ED5525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599ED8FF1C3DC75000ED5525 /* Gurkha_s_StampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599ED9011C3DC75000ED5525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599ED90A1C3DC75000ED5525 /* Gurkha_s_StampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		599ED8FC1C3DC75000ED5525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599ED8E51C3DC74F00ED5525 /* Gurkha's Stamp */;
+			targetProxy = 599ED8FB1C3DC75000ED5525 /* PBXContainerItemProxy */;
+		};
+		599ED9071C3DC75000ED5525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599ED8E51C3DC74F00ED5525 /* Gurkha's Stamp */;
+			targetProxy = 599ED9061C3DC75000ED5525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		599ED8ED1C3DC74F00ED5525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599ED8EE1C3DC74F00ED5525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		599ED8F21C3DC74F00ED5525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599ED8F31C3DC74F00ED5525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		599ED90C1C3DC75000ED5525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		599ED90D1C3DC75000ED5525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599ED90F1C3DC75000ED5525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gurkha's Stamp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gurkhasonthehill.Gurkha-s-Stamp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		599ED9101C3DC75000ED5525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gurkha's Stamp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gurkhasonthehill.Gurkha-s-Stamp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		599ED9121C3DC75000ED5525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gurkha's StampTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gurkhasonthehill.Gurkha-s-StampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gurkha's Stamp.app/Gurkha's Stamp";
+			};
+			name = Debug;
+		};
+		599ED9131C3DC75000ED5525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gurkha's StampTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gurkhasonthehill.Gurkha-s-StampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gurkha's Stamp.app/Gurkha's Stamp";
+			};
+			name = Release;
+		};
+		599ED9151C3DC75000ED5525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gurkha's StampUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gurkhasonthehill.Gurkha-s-StampUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gurkha's Stamp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		599ED9161C3DC75000ED5525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gurkha's StampUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gurkhasonthehill.Gurkha-s-StampUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gurkha's Stamp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		599ED8E11C3DC74F00ED5525 /* Build configuration list for PBXProject "Gurkha's Stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599ED90C1C3DC75000ED5525 /* Debug */,
+				599ED90D1C3DC75000ED5525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599ED90E1C3DC75000ED5525 /* Build configuration list for PBXNativeTarget "Gurkha's Stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599ED90F1C3DC75000ED5525 /* Debug */,
+				599ED9101C3DC75000ED5525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		599ED9111C3DC75000ED5525 /* Build configuration list for PBXNativeTarget "Gurkha's StampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599ED9121C3DC75000ED5525 /* Debug */,
+				599ED9131C3DC75000ED5525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		599ED9141C3DC75000ED5525 /* Build configuration list for PBXNativeTarget "Gurkha's StampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599ED9151C3DC75000ED5525 /* Debug */,
+				599ED9161C3DC75000ED5525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 599ED8DE1C3DC74F00ED5525 /* Project object */;
+}
